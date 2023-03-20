@@ -23,6 +23,9 @@ Site published at: https://janusonyte.github.io/04-coming-soon/
 -   [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -   Icons
 -   CSS flex
+-   Form
+-   Responsive design
+-   CSS animations
 
 ## 🧰 Getting Started
 
