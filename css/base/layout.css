@@ -23,7 +23,7 @@
     gap: 30px;
     width: 50%;
 }
-.container > .row > .column.right {
+.container .column.right {
     width: 40%;
 }
 
