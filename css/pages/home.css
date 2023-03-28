@@ -4,7 +4,9 @@
 /* 3rd-party */
 @import '../3rd-party/font-awesome.min.css';
 /* components */
+@import '../components/clock.css';
 @import '../components/footer.css';
+@import '../components/mouse.css';
 /* CUSTOM STYLE */
 
 .hero {
@@ -55,4 +57,14 @@
     .hero .title {
         font-size: 64px;
     }
+}
+
+.hero > .short-row {
+    position: relative;
+}
+.red {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
 }
