@@ -14,7 +14,7 @@
         <section class="container bg-main hero">
             <div class="short-row">
                 <img class="logo" src="./img/logo.png" alt="Logo">
-                <h1 class="title">Coming soon</h1>
+                <h1 class="title btn-small">Coming soon</h1>
                 <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis inventore voluptates consectetur! Ullam, nihil necessitatibus maiores consectetur ipsum, ad quasi odio mollitia quam error quis.</p>
                 <div class="clock">
                     <div class="time">
@@ -37,33 +37,72 @@
                 <div class="mouse"></div>
             </div>
         </section>
-        <section class="container main-content">
+        <section id="turinys" class="container main-content">
             <div class="row">
-                <div class="column">
+                <div id="about" class="column">
                     <h2 class="content-title">About startup</h2>
                     <p class="content-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio <a href="./">Matrox</a> quasi et hic nam amet eaque quibusdam porro voluptatem ab!</p>
+                    <div class="progress-bar">
+                        <div class="top">
+                            <div class="label">UX Design</div>
+                            <div class="value">90%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="top">
+                            <div class="label">Web Development</div>
+                            <div class="value">51%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="width: 51%;"></div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="top">
+                            <div class="label">Web Design</div>
+                            <div class="value">80%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="column right">
+                <div id="question" class="column right">
                     <h2 class="content-title">Have any question?</h2>
                     <p class="content-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio <a href="mailto:info@matrox.xyz">info@matrox.xyz</a> quasi et hic nam amet eaque quibusdam porro voluptatem ab!</p>
+                    <form class="form">
+                        <label for="name">Name</label>
+                        <input id="name" class="input" type="text" placeholder="Name">
+                        <label for="email">Email</label>
+                        <input id="email" class="input" type="email" placeholder="Email">
+                        <label for="message">Message</label>
+                        <textarea class="textarea" name="" id="message" placeholder="Message"></textarea>
+                        <button class="btn" type="submit">Send message</button>
+                    </form>
                 </div>
             </div>
         </section>
     </main>
     <footer class="container bg-main footer">
-        <div class="row socials">
-            <a href="./" target="_blank" class="social fa fa-facebook"></a>
-            <a href="./" target="_blank" class="social fa fa-twitter"></a>
-            <a href="./" target="_blank" class="social fa fa-dribbble"></a>
-            <a href="./" target="_blank" class="social fa fa-tumblr"></a>
-            <a href="./" target="_blank" class="social fa fa-linkedin"></a>
-            <a href="./" target="_blank" class="social fa fa-instagram"></a>
-            <a href="./" target="_blank" class="social fa fa-rss"></a>
+        <div class="row">
+            <div class="socials">
+                <a href="./" target="_blank" class="social fa fa-facebook"></a>
+                <a href="./" target="_blank" class="social fa fa-twitter"></a>
+                <a href="./" target="_blank" class="social fa fa-dribbble"></a>
+                <a href="./" target="_blank" class="social fa fa-tumblr"></a>
+                <a href="./" target="_blank" class="social fa fa-linkedin"></a>
+                <a href="./" target="_blank" class="social fa fa-instagram"></a>
+                <a href="./" target="_blank" class="social fa fa-rss"></a>
+            </div>
+            <a href="#" class="btn btn-icon back-to-top fa fa-angle-up"></a>
         </div>
         <div class="short-row">
             <img class="footer-logo" src="./img/logo-white.png" alt="Logo">
             <div class="trio">
-                <p>Copyright &copy; 2023 <a href="./">Matrox</a></p>
+                <p>Copyright &copy; 2023 <a href="#">Matrox</a></p>
                 <p>All rights reserver</p>
                 <p>Designed by <a href="#" target="_blank">TrendyTheme</a></p>
             </div>

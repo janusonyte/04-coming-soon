@@ -4,9 +4,12 @@
 /* 3rd-party */
 @import '../3rd-party/font-awesome.min.css';
 /* components */
+@import '../components/button.css';
 @import '../components/clock.css';
 @import '../components/footer.css';
+@import '../components/form.css';
 @import '../components/mouse.css';
+@import '../components/progress-bar.css';
 /* CUSTOM STYLE */
 
 .hero {
@@ -51,6 +54,10 @@
 }
 .content-description > a:hover {
     text-decoration: underline;
+}
+
+.main-content .form .btn {
+    margin-left: auto;
 }
 
 @media (max-width: 600px) {
